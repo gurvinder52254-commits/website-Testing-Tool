@@ -1,0 +1,79 @@
+{
+  "runId": "80ebc6e3",
+  "testFileName": "lipsum-generator.spec.js",
+  "pageUrl": "https://www.lipsum.com/",
+  "startTime": "2026-04-09T10:15:35.044Z",
+  "endTime": "2026-04-09T10:15:45.857Z",
+  "totalTests": 7,
+  "passed": 5,
+  "failed": 2,
+  "skipped": 0,
+  "testResults": [
+    {
+      "index": 0,
+      "name": "should have the correct title",
+      "type": "seo",
+      "status": "passed",
+      "duration": 51,
+      "error": null,
+      "details": "Title found: \"Lorem Ipsum - All the facts - Lipsum generator\""
+    },
+    {
+      "index": 1,
+      "name": "should have a donate button",
+      "type": "button",
+      "status": "passed",
+      "duration": 490,
+      "error": null,
+      "details": "Found 2 buttons (2 enabled): Generate Lorem Ipsum, Close Ad"
+    },
+    {
+      "index": 2,
+      "name": "should have a generate lorem ipsum button",
+      "type": "button",
+      "status": "passed",
+      "duration": 44,
+      "error": null,
+      "details": "Found 2 buttons (2 enabled): Generate Lorem Ipsum, Close Ad"
+    },
+    {
+      "index": 3,
+      "name": "should have input fields",
+      "type": "form",
+      "status": "passed",
+      "duration": 37,
+      "error": null,
+      "details": "Found 1 form(s), 7 input field(s)"
+    },
+    {
+      "index": 4,
+      "name": "should generate lorem ipsum on submit",
+      "type": "form",
+      "status": "passed",
+      "duration": 76,
+      "error": null,
+      "details": "Found 3 submit button(s)"
+    },
+    {
+      "index": 5,
+      "name": "should have a privacy policy link in the footer",
+      "type": "navigation",
+      "status": "failed",
+      "duration": 154,
+      "error": "Missing footer",
+      "details": "No footer element found"
+    },
+    {
+      "index": 6,
+      "name": "should have a help email link in the footer",
+      "type": "navigation",
+      "status": "failed",
+      "duration": 324,
+      "error": "Missing footer",
+      "details": "No footer element found"
+    }
+  ],
+  "savedTestFile": "D:\\websiteTesting\\node_service\\groq_tests\\80ebc6e3_lipsum-generator.spec.js",
+  "status": "complete",
+  "error": null
+}

@@ -1,0 +1,4684 @@
+{
+  "testId": "1fd9fa8f",
+  "frontendUrl": "https://apple.com",
+  "backendUrl": null,
+  "testDate": "2026-04-09T09:40:53.397Z",
+  "totalPages": 1,
+  "pagesCompleted": 1,
+  "headerLinks": [],
+  "footerLinks": [],
+  "pages": [
+    {
+      "index": 0,
+      "url": "https://apple.com",
+      "text": "Apple",
+      "source": "homepage",
+      "title": "Apple",
+      "loadStatus": "SUCCESS",
+      "loadTimeMs": 1263,
+      "httpStatus": 200,
+      "screenshotPath": "D:\\websiteTesting\\node_service\\reports\\1fd9fa8f\\page_0_1775727669582.png",
+      "screenshotUrl": "/api/screenshots/1fd9fa8f/page_0_1775727669582.png",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "networkLog": {
+        "requests": [
+          {
+            "name": "https://apple.com/",
+            "url": "https://apple.com/",
+            "method": "GET",
+            "status": 301,
+            "type": "document",
+            "size": 0,
+            "time": 148
+          },
+          {
+            "name": "https://www.apple.com/",
+            "url": "https://www.apple.com/",
+            "method": "GET",
+            "status": 200,
+            "type": "document",
+            "size": 253541,
+            "time": 232
+          },
+          {
+            "name": "ac-target.js",
+            "url": "https://www.apple.com/metrics/ac-target/latest/ac-target.js",
+            "method": "GET",
+            "status": 200,
+            "type": "script",
+            "size": 121247,
+            "time": 52
+          },
+          {
+            "name": "globalheader.css",
+            "url": "https://www.apple.com/api-www/global-elements/global-header/v1/assets/globalheader.css",
+            "method": "GET",
+            "status": 200,
+            "type": "stylesheet",
+            "size": 170244,
+            "time": 10
+          },
+          {
+            "name": "ac-globalfooter.built.css",
+            "url": "https://www.apple.com/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+            "method": "GET",
+            "status": 200,
+            "type": "stylesheet",
+            "size": 56408,
+            "time": 0
+          },
+          {
+            "name": "ac-localnav.built.css",
+            "url": "https://www.apple.com/ac/localnav/9/styles/ac-localnav.built.css",
+            "method": "GET",
+            "status": 200,
+            "type": "stylesheet",
+            "size": 82755,
+            "time": 0
+          },
+          {
+            "name": "fonts",
+            "url": "https://www.apple.com/wss/fonts?families=SF+Pro,v3|SF+Pro+Icons,v3",
+            "method": "GET",
+            "status": 200,
+            "type": "stylesheet",
+            "size": 22124,
+            "time": 0
+          },
+          {
+            "name": "main.built.css",
+            "url": "https://www.apple.com/v/home/a/styles/main.built.css",
+            "method": "GET",
+            "status": 200,
+            "type": "stylesheet",
+            "size": 128046,
+            "time": 0
+          },
+          {
+            "name": "home.built.css",
+            "url": "https://www.apple.com/v/home/a/styles/home.built.css",
+            "method": "GET",
+            "status": 200,
+            "type": "stylesheet",
+            "size": 31931,
+            "time": 0
+          },
+          {
+            "name": "home-gallery.built.css",
+            "url": "https://www.apple.com/v/home/a/built/styles/home-gallery.built.css",
+            "method": "GET",
+            "status": 200,
+            "type": "stylesheet",
+            "size": 175999,
+            "time": 0
+          },
+          {
+            "name": "home_2h32jwq8.built.css",
+            "url": "https://www.apple.com/home/built/styles/home_2h32jwq8.built.css",
+            "method": "GET",
+            "status": 200,
+            "type": "stylesheet",
+            "size": 2115,
+            "time": 6
+          },
+          {
+            "name": "head.built.js",
+            "url": "https://www.apple.com/v/home/a/scripts/head.built.js",
+            "method": "GET",
+            "status": 200,
+            "type": "script",
+            "size": 6740,
+            "time": 0
+          },
+          {
+            "name": "globalheader.umd.js",
+            "url": "https://www.apple.com/api-www/global-elements/global-header/v1/assets/globalheader.umd.js",
+            "method": "GET",
+            "status": 200,
+            "type": "script",
+            "size": 164032,
+            "time": 1
+          },
+          {
+            "name": "ac-analytics.js",
+            "url": "https://www.apple.com/metrics/ac-analytics/2.29.1/scripts/ac-analytics.js",
+            "method": "GET",
+            "status": 200,
+            "type": "script",
+            "size": 466698,
+            "time": 113
+          },
+          {
+            "name": "auto-init.js",
+            "url": "https://www.apple.com/metrics/ac-analytics/2.29.1/scripts/auto-init.js",
+            "method": "GET",
+            "status": 200,
+            "type": "script",
+            "size": 111,
+            "time": 0
+          },
+          {
+            "name": "ac-globalfooter.built.js",
+            "url": "https://www.apple.com/ac/globalfooter/8/en_US/scripts/ac-globalfooter.built.js",
+            "method": "GET",
+            "status": 200,
+            "type": "script",
+            "size": 9686,
+            "time": 0
+          },
+          {
+            "name": "localeswitcher.built.js",
+            "url": "https://www.apple.com/ac/localeswitcher/4/en_US/scripts/localeswitcher.built.js",
+            "method": "GET",
+            "status": 200,
+            "type": "script",
+            "size": 191420,
+            "time": 36
+          },
+          {
+            "name": "main.built.js",
+            "url": "https://www.apple.com/v/home/a/scripts/main.built.js",
+            "method": "GET",
+            "status": 200,
+            "type": "script",
+            "size": 91539,
+            "time": 0
+          },
+          {
+            "name": "home-analytics.built.js",
+            "url": "https://www.apple.com/v/home/a/scripts/home-analytics.built.js",
+            "method": "GET",
+            "status": 200,
+            "type": "script",
+            "size": 1756,
+            "time": 0
+          },
+          {
+            "name": "endless-entertainment-gallery.built.js",
+            "url": "https://www.apple.com/v/home/a/built/scripts/endless-entertainment-gallery.built.js",
+            "method": "GET",
+            "status": 200,
+            "type": "script",
+            "size": 157280,
+            "time": 0
+          },
+          {
+            "name": "data-relay.js",
+            "url": "https://www.apple.com/metrics/data-relay/1.2.0/scripts/data-relay.js",
+            "method": "GET",
+            "status": 200,
+            "type": "script",
+            "size": 17176,
+            "time": 7
+          },
+          {
+            "name": "auto-relay.js",
+            "url": "https://www.apple.com/metrics/data-relay/1.2.0/scripts/auto-relay.js",
+            "method": "GET",
+            "status": 200,
+            "type": "script",
+            "size": 197,
+            "time": 0
+          },
+          {
+            "name": "experience-meta",
+            "url": "https://www.apple.com/shop/experience-meta",
+            "method": "GET",
+            "status": 200,
+            "type": "fetch",
+            "size": 45,
+            "time": 434
+          },
+          {
+            "name": "sf-pro-display_semibold.woff2",
+            "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold.woff2",
+            "method": "GET",
+            "status": 200,
+            "type": "font",
+            "size": 0,
+            "time": 0
+          },
+          {
+            "name": "sf-pro-display_bold.woff2",
+            "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_bold.woff2",
+            "method": "GET",
+            "status": 200,
+            "type": "font",
+            "size": 0,
+            "time": 0
+          },
+          {
+            "name": "sf-pro-display_regular.woff2",
+            "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular.woff2",
+            "method": "GET",
+            "status": 200,
+            "type": "font",
+            "size": 0,
+            "time": 0
+          },
+          {
+            "name": "sf-pro-text_light.woff2",
+            "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_light.woff2",
+            "method": "GET",
+            "status": 200,
+            "type": "font",
+            "size": 0,
+            "time": 0
+          },
+          {
+            "name": "sf-pro-text_semibold.woff2",
+            "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold.woff2",
+            "method": "GET",
+            "status": 200,
+            "type": "font",
+            "size": 0,
+            "time": 0
+          },
+          {
+            "name": "sf-pro-text_regular.woff2",
+            "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular.woff2",
+            "method": "GET",
+            "status": 200,
+            "type": "font",
+            "size": 0,
+            "time": 1
+          },
+          {
+            "name": "sf-pro-icons_light.woff2",
+            "url": "https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_light.woff2",
+            "method": "GET",
+            "status": 200,
+            "type": "font",
+            "size": 0,
+            "time": 1
+          },
+          {
+            "name": "flyouts",
+            "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=en_US",
+            "method": "GET",
+            "status": 200,
+            "type": "fetch",
+            "size": 41167,
+            "time": 13
+          },
+          {
+            "name": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=en_US",
+            "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=en_US",
+            "method": "GET",
+            "status": 200,
+            "type": "fetch",
+            "size": 500,
+            "time": 10
+          },
+          {
+            "name": "hero_logo_ipad_air__ejixj9pic0uq_large.png",
+            "url": "https://www.apple.com/v/home/a/images/logos/ipad-air-m4/hero_logo_ipad_air__ejixj9pic0uq_large.png",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 4537,
+            "time": 7
+          },
+          {
+            "name": "promo_wwdc26_announce__b74q051bn5ki_large.jpg",
+            "url": "https://www.apple.com/v/home/a/images/promos/wwdc26-announce/promo_wwdc26_announce__b74q051bn5ki_large.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 26734,
+            "time": 0
+          },
+          {
+            "name": "promo_logo_apple_watch_series_11__d9br21pxygya_large.png",
+            "url": "https://www.apple.com/v/home/a/images/logos/apple-watch-series-11/promo_logo_apple_watch_series_11__d9br21pxygya_large.png",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 3362,
+            "time": 0
+          },
+          {
+            "name": "promo_apple_watch_series_11__b63hxviqvonm_large.jpg",
+            "url": "https://www.apple.com/v/home/a/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_large.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 50581,
+            "time": 0
+          },
+          {
+            "name": "promo_macbook_pro__e3xqrygvp9ea_large.jpg",
+            "url": "https://www.apple.com/v/home/a/images/promos/macbook-pro/promo_macbook_pro__e3xqrygvp9ea_large.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 15506,
+            "time": 0
+          },
+          {
+            "name": "promo_airpodspro_3__f6xmza7bglei_large.jpg",
+            "url": "https://www.apple.com/v/home/a/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_large.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 19364,
+            "time": 0
+          },
+          {
+            "name": "promo_logo_iphone_tradein__7y3gtai5az66_large.png",
+            "url": "https://www.apple.com/v/home/a/images/logos/iphone-tradein/promo_logo_iphone_tradein__7y3gtai5az66_large.png",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 2340,
+            "time": 0
+          },
+          {
+            "name": "promo_iphone_tradein__bugw15ka691e_large.jpg",
+            "url": "https://www.apple.com/v/home/a/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 94247,
+            "time": 0
+          },
+          {
+            "name": "promo_apple_card__5cm7draujpey_large.png",
+            "url": "https://www.apple.com/v/home/a/images/logos/apple-card/promo_apple_card__5cm7draujpey_large.png",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 2049,
+            "time": 0
+          },
+          {
+            "name": "s97127933130801",
+            "url": "https://securemetrics.apple.com/b/ss/applestoreww/1/JS-2.23.0/s97127933130801?AQB=1&ndh=1&pf=1&t=9%2F3%2F2026%2015%3A11%3A7%204%20-330&fid=419B0FACC9F356AA-0F94A333B45C7B81&ce=UTF-8&cdp=2&cl=1800&pageName=apple%20-%20index%2Ftab%20%28us%29&g=https%3A%2F%2Fwww.apple.com%2F&cc=USD&ch=www.us.homepage&server=ac-2.29.1&events=event220%3D0.224%2Cevent221%3D0.004%2Cevent222%3D0.046%2Cevent223%3D0.033%2Cevent224%3D0.038%2Cevent225%3D0.021%2Cevent226%3D1.509%2Cevent227%3D0.292%2Cevent228%3D0.101%2Cevent229%3D2.034%2Cevent230%3D0.002%2Cevent231%3D2.404%2Cevent232&h1=www.us.homepage&v3=aos%3A%20us&l3=D%3Das_tex&c4=D%3Dg&v4=D%3DpageName&c14=apple%20-%20index%2Ftab%20%28us%29&v14=en-us&c17=100%3A18&c20=aos%3A%20us&c28=6100&v54=D%3Dg&c57=www.us.homepage&v97=s.t-p&s=1920x1080&c=32&j=1.6&v=N&k=Y&bw=1920&bh=1080&AQE=1",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 43,
+            "time": 125
+          },
+          {
+            "name": "promo_apple_card__5cm7draujpey_large.jpg",
+            "url": "https://www.apple.com/v/home/a/images/promos/apple-card/promo_apple_card__5cm7draujpey_large.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 34867,
+            "time": 0
+          },
+          {
+            "name": "1250x668sr.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/pa_Dd2CLL-BlWQRqIurClw/1250x668sr.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 127678,
+            "time": 0
+          },
+          {
+            "name": "logo_hero_light__d7t8cya4x26a_small.png",
+            "url": "https://www.apple.com/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 424,
+            "time": 0
+          },
+          {
+            "name": "220x54.png",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/J7bMKs9REENSizTYepOTeg/220x54.png",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 7464,
+            "time": 0
+          },
+          {
+            "name": "1250x668sr.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/za7Mqkp-OSK_2BHWq8AtSQ/1250x668sr.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 156935,
+            "time": 0
+          },
+          {
+            "name": "220x54.png",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/tvDS8CeEzaCZcSidQYYa0A/220x54.png",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 6922,
+            "time": 1
+          },
+          {
+            "name": "1250x668sr.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/5d/6b/8a/5d6b8a24-1ba8-6a08-8596-47d0cadacd5d/fc3f421a-0ae3-48fa-9cfc-bf3c4f6240e2.png/1250x668sr.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 216174,
+            "time": 0
+          },
+          {
+            "name": "220x54.png",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/f0/ac/1e/f0ac1e58-0027-49d0-378e-68470edfb0ec/3b7d6fac-0061-401c-9716-742245053fd0.png/220x54.png",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 3556,
+            "time": 0
+          },
+          {
+            "name": "1250x668sr.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/OmAEHiPsBUBSNjqgm9ItjA/1250x668sr.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 155598,
+            "time": 1
+          },
+          {
+            "name": "220x54.png",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/lvZ2b3skKnno7C-36QvFrg/220x54.png",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 4346,
+            "time": 1
+          },
+          {
+            "name": "1250x668sr.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/f2/4e/e3/f24ee3d7-7259-eb81-141c-ecc587d62dff/9d737dbe-b401-4b72-94ef-74c77cf5a95a.png/1250x668sr.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 242925,
+            "time": 0
+          },
+          {
+            "name": "220x54.png",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Kc1Xx3Z1QBOuXe1EHDu4TA/220x54.png",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 2949,
+            "time": 0
+          },
+          {
+            "name": "1250x668sr.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/HntOU0HJBFL_Tp0fasZQtQ/1250x668sr.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 212457,
+            "time": 1
+          },
+          {
+            "name": "220x54.png",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/v-xqGz_rdBcQ-OZ4HvFeVw/220x54.png",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 6420,
+            "time": 1
+          },
+          {
+            "name": "1250x668sr.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/1250x668sr.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 220311,
+            "time": 0
+          },
+          {
+            "name": "220x54.png",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/6f/41/7c/6f417c01-dbf7-6cdc-df62-f014aa88a673/e452926f-7b52-4c05-a07f-8e4939b1bf6b.png/220x54.png",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 7035,
+            "time": 0
+          },
+          {
+            "name": "1250x668sr.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/ubyMKBPSumJZe4z6Nn1A2A/1250x668sr.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 252340,
+            "time": 0
+          },
+          {
+            "name": "220x54.png",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/2Pvq9Q1gy7cxOpfXK1_8Ew/220x54.png",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 8404,
+            "time": 0
+          },
+          {
+            "name": "1250x668sr.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/zLbkVwwHwe8I5EtuXc8wWg/1250x668sr.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 213592,
+            "time": 1
+          },
+          {
+            "name": "220x54.png",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/RHO4MKL0MT0Daq-hINei5w/220x54.png",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 3399,
+            "time": 0
+          },
+          {
+            "name": "470x264.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Video211/v4/3d/02/42/3d0242c5-9272-d2b1-355f-76306fdaca45/YO_MF_0272_artwork_en_ID309049_0.png/470x264.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 33465,
+            "time": 0
+          },
+          {
+            "name": "470x264.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/470x264.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 38070,
+            "time": 0
+          },
+          {
+            "name": "226x226sr.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/226x226sr.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 20151,
+            "time": 0
+          },
+          {
+            "name": "470x264.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/4e/d8/a1/4ed8a14a-6059-12bf-c51e-3c018ed0ffea/bb4a926a-a5b7-45ce-a0f3-ecc139576c6a.png/470x264.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 23700,
+            "time": 1
+          },
+          {
+            "name": "470x264.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/470x264.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 47297,
+            "time": 0
+          },
+          {
+            "name": "226x226SC.DN01.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/a7/d4/b2/a7d4b2dd-2ce5-7414-93f8-fe0b8569abd8/8cd4f64c-44a7-400d-929d-5279622bd6ac.png/226x226SC.DN01.jpg?l=en-US",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 18903,
+            "time": 0
+          },
+          {
+            "name": "470x264.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/1d/e7/0b/1de70bac-4e88-e8f9-bac3-7824757058fb/dbf14aec-bece-4ea1-b898-393cbb07c77f.png/470x264.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 25042,
+            "time": 0
+          },
+          {
+            "name": "470x264.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/20/56/2b/20562bcb-a666-0f36-367d-7e188766eec6/85a24e2f-a12f-443a-a5c1-ddd78b076bc2.png/470x264.jpg",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 68613,
+            "time": 4
+          },
+          {
+            "name": "226x226SC.DN01.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/de/80/fe/de80fe0c-512c-0046-d124-dc7b83ba921f/d8b341d6-2731-4d45-88df-6f668110fda0.png/226x226SC.DN01.jpg?l=en-US",
+            "method": "GET",
+            "status": 200,
+            "type": "image",
+            "size": 24227,
+            "time": 0
+          },
+          {
+            "name": "localeswitcher.json",
+            "url": "https://www.apple.com/ac/localeswitcher/4/en_IN/content/localeswitcher.json",
+            "method": "GET",
+            "status": 200,
+            "type": "xhr",
+            "size": 1662,
+            "time": 94
+          },
+          {
+            "name": "localeswitcher.built.css",
+            "url": "https://www.apple.com/ac/localeswitcher/4/en_IN/styles/localeswitcher.built.css",
+            "method": "GET",
+            "status": 200,
+            "type": "stylesheet",
+            "size": 39829,
+            "time": 1
+          },
+          {
+            "name": "BaseComponent-4eXX3M0u.built.js",
+            "url": "https://www.apple.com/v/home/a/scripts/BaseComponent-4eXX3M0u.built.js",
+            "method": "GET",
+            "status": 200,
+            "type": "script",
+            "size": 6549,
+            "time": 2
+          },
+          {
+            "name": "inline-media.built.js",
+            "url": "https://www.apple.com/v/home/a/scripts/inline-media.built.js",
+            "method": "GET",
+            "status": 200,
+            "type": "script",
+            "size": 5050,
+            "time": 0
+          },
+          {
+            "name": "apple50.built.js",
+            "url": "https://www.apple.com/v/home/a/scripts/apple50.built.js",
+            "method": "GET",
+            "status": 200,
+            "type": "script",
+            "size": 3462,
+            "time": 0
+          },
+          {
+            "name": "delivery",
+            "url": "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=0d1f0447e8c8497c98a4254cb400fbec&version=2.3.2",
+            "method": "POST",
+            "status": 200,
+            "type": "xhr",
+            "size": 281,
+            "time": 123
+          }
+        ],
+        "summary": {
+          "totalRequests": 77,
+          "totalSize": 4651617,
+          "totalTransferred": 4651617,
+          "domContentLoaded": 929,
+          "loadTime": 934,
+          "finishTime": 1251
+        }
+      },
+      "brokenLinksCheck": [
+        {
+          "text": "Continue",
+          "href": "https://www.apple.com/in/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple",
+          "href": "https://www.apple.com/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Store",
+          "href": "https://www.apple.com/us/shop/goto/store",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Shop the Latest",
+          "href": "https://www.apple.com/us/shop/goto/store",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Mac",
+          "href": "https://www.apple.com/us/shop/goto/buy_mac",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "iPad",
+          "href": "https://www.apple.com/us/shop/goto/buy_ipad",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "iPhone",
+          "href": "https://www.apple.com/us/shop/goto/buy_iphone",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Watch",
+          "href": "https://www.apple.com/us/shop/goto/buy_watch",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Vision Pro",
+          "href": "https://www.apple.com/us/shop/goto/buy_vision",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "AirPods",
+          "href": "https://www.apple.com/us/shop/goto/airpods/accessories",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Accessories",
+          "href": "https://www.apple.com/us/shop/goto/buy_accessories",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Find a Store",
+          "href": "https://www.apple.com/retail/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Order Status",
+          "href": "https://www.apple.com/us/shop/goto/order/list",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Trade In",
+          "href": "https://www.apple.com/us/shop/goto/trade_in",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Financing",
+          "href": "https://www.apple.com/us/shop/goto/payment_plan",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Personal Setup",
+          "href": "https://www.apple.com/us/shop/goto/personal_setup",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Certified Refurbished",
+          "href": "https://www.apple.com/us/shop/goto/special_deals",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Education",
+          "href": "https://www.apple.com/us/shop/goto/educationrouting",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Business",
+          "href": "https://www.apple.com/retail/business/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Veterans and Military",
+          "href": "https://www.apple.com/us/shop/goto/eppstore/veteransandmilitary",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Government",
+          "href": "https://www.apple.com/r/store/government/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Mac",
+          "href": "https://www.apple.com/mac/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Explore All Mac",
+          "href": "https://www.apple.com/mac/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "MacBook Neo",
+          "href": "https://www.apple.com/macbook-neo/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "MacBook Air",
+          "href": "https://www.apple.com/macbook-air/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "MacBook Pro",
+          "href": "https://www.apple.com/macbook-pro/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "iMac",
+          "href": "https://www.apple.com/imac/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Mac mini",
+          "href": "https://www.apple.com/mac-mini/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Mac Studio",
+          "href": "https://www.apple.com/mac-studio/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Displays",
+          "href": "https://www.apple.com/displays/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Compare Mac",
+          "href": "https://www.apple.com/mac/compare/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Switch from PC to Mac",
+          "href": "https://www.apple.com/mac/mac-does-that/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Shop Mac",
+          "href": "https://www.apple.com/us/shop/goto/buy_mac",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Help Me Choose",
+          "href": "https://www.apple.com/mac/best-mac/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Mac Accessories",
+          "href": "https://www.apple.com/us/shop/goto/mac/accessories",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Trade In",
+          "href": "https://www.apple.com/us/shop/goto/trade_in#mac",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Financing",
+          "href": "https://www.apple.com/us/shop/goto/payment_plan",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Personal Setup",
+          "href": "https://www.apple.com/us/shop/goto/personal_setup",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Mac Support",
+          "href": "https://support.apple.com/mac?cid=gn-ols-mac-psp-prodfly",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "AppleCare",
+          "href": "https://www.apple.com/applecare/?filter=mac",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "macOS Tahoe",
+          "href": "https://www.apple.com/os/macos/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Intelligence",
+          "href": "https://www.apple.com/apple-intelligence/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apps by Apple",
+          "href": "https://www.apple.com/apps/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Creator Studio",
+          "href": "https://www.apple.com/apple-creator-studio/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Better with iPhone",
+          "href": "https://www.apple.com/macos/continuity/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "iCloud+",
+          "href": "https://www.apple.com/icloud/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Mac for Business",
+          "href": "https://www.apple.com/business/mac/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Education",
+          "href": "https://www.apple.com/education/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "iPad",
+          "href": "https://www.apple.com/ipad/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Explore All iPad",
+          "href": "https://www.apple.com/ipad/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "iPad Pro",
+          "href": "https://www.apple.com/ipad-pro/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "iPad Air",
+          "href": "https://www.apple.com/ipad-air/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "iPad",
+          "href": "https://www.apple.com/ipad-11/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "iPad mini",
+          "href": "https://www.apple.com/ipad-mini/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Pencil",
+          "href": "https://www.apple.com/apple-pencil/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Keyboards",
+          "href": "https://www.apple.com/ipad-keyboards/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Compare iPad",
+          "href": "https://www.apple.com/ipad/compare/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Shop iPad",
+          "href": "https://www.apple.com/us/shop/goto/buy_ipad",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "iPad Accessories",
+          "href": "https://www.apple.com/us/shop/goto/ipad/accessories",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Trade In",
+          "href": "https://www.apple.com/us/shop/goto/trade_in#ipad",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Financing",
+          "href": "https://www.apple.com/us/shop/goto/payment_plan",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Personal Setup",
+          "href": "https://www.apple.com/us/shop/goto/personal_setup",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "iPad Support",
+          "href": "https://support.apple.com/ipad?cid=gn-ols-ipad-psp-prodfly",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "AppleCare",
+          "href": "https://www.apple.com/applecare/?filter=ipad",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "iPadOS 26",
+          "href": "https://www.apple.com/os/ipados/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Intelligence",
+          "href": "https://www.apple.com/apple-intelligence/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apps by Apple",
+          "href": "https://www.apple.com/apps/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Creator Studio",
+          "href": "https://www.apple.com/apple-creator-studio/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "iCloud+",
+          "href": "https://www.apple.com/icloud/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Education",
+          "href": "https://www.apple.com/education/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "iPhone",
+          "href": "https://www.apple.com/iphone/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Explore All iPhone",
+          "href": "https://www.apple.com/iphone/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "iPhone 17 Pro",
+          "href": "https://www.apple.com/iphone-17-pro/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "iPhone Air",
+          "href": "https://www.apple.com/iphone-air/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "iPhone 17",
+          "href": "https://www.apple.com/iphone-17/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "iPhone 17e",
+          "href": "https://www.apple.com/iphone-17e/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "iPhone 16",
+          "href": "https://www.apple.com/us/shop/goto/buy_iphone/iphone_16",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Compare iPhone",
+          "href": "https://www.apple.com/iphone/compare/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Switch from Android",
+          "href": "https://www.apple.com/iphone/switch/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Shop iPhone",
+          "href": "https://www.apple.com/us/shop/goto/buy_iphone",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "iPhone Accessories",
+          "href": "https://www.apple.com/us/shop/goto/iphone/accessories",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Trade In",
+          "href": "https://www.apple.com/us/shop/goto/trade_in#iphone",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Carrier Deals at Apple",
+          "href": "https://www.apple.com/us/shop/goto/buy_iphone/carrier_offers",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Financing",
+          "href": "https://www.apple.com/us/shop/goto/payment_plan",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Personal Setup",
+          "href": "https://www.apple.com/us/shop/goto/personal_setup",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "iPhone Support",
+          "href": "https://support.apple.com/iphone?cid=gn-ols-iphone-psp-prodfly",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "AppleCare",
+          "href": "https://www.apple.com/applecare/?filter=iphone",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "iOS 26",
+          "href": "https://www.apple.com/os/ios/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Intelligence",
+          "href": "https://www.apple.com/apple-intelligence/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apps by Apple",
+          "href": "https://www.apple.com/apps/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "iPhone Privacy",
+          "href": "https://www.apple.com/privacy/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Better with Mac",
+          "href": "https://www.apple.com/macos/continuity/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "iCloud+",
+          "href": "https://www.apple.com/icloud/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Wallet, Pay, Card",
+          "href": "https://www.apple.com/wallet/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Siri",
+          "href": "https://www.apple.com/siri/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Watch",
+          "href": "https://www.apple.com/watch/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Explore All Apple Watch",
+          "href": "https://www.apple.com/watch/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Watch Series 11",
+          "href": "https://www.apple.com/apple-watch-series-11/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Watch SE 3",
+          "href": "https://www.apple.com/apple-watch-se-3/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Watch Ultra 3",
+          "href": "https://www.apple.com/apple-watch-ultra-3/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Watch Nike",
+          "href": "https://www.apple.com/apple-watch-nike/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Watch Hermès",
+          "href": "https://www.apple.com/apple-watch-hermes/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Compare Watch",
+          "href": "https://www.apple.com/watch/compare/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Why Apple Watch",
+          "href": "https://www.apple.com/watch/why-apple-watch/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Shop Apple Watch",
+          "href": "https://www.apple.com/us/shop/goto/buy_watch",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Watch Bands",
+          "href": "https://www.apple.com/us/shop/goto/watch/bands",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Watch Accessories",
+          "href": "https://www.apple.com/us/shop/goto/watch/accessories",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Trade In",
+          "href": "https://www.apple.com/us/shop/goto/trade_in#watch",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Financing",
+          "href": "https://www.apple.com/us/shop/goto/payment_plan",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Personal Setup",
+          "href": "https://www.apple.com/us/shop/goto/personal_setup",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Watch Support",
+          "href": "https://support.apple.com/watch?cid=gn-ols-watch-psp-prodfly",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "AppleCare",
+          "href": "https://www.apple.com/applecare/?filter=watch",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "watchOS 26",
+          "href": "https://www.apple.com/os/watchos/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Watch For Your Kids",
+          "href": "https://www.apple.com/apple-watch-for-your-kids/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apps by Apple",
+          "href": "https://www.apple.com/apps/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Fitness+",
+          "href": "https://www.apple.com/apple-fitness-plus/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Vision",
+          "href": "https://www.apple.com/apple-vision-pro/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Explore Apple Vision Pro",
+          "href": "https://www.apple.com/apple-vision-pro/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Tech Specs",
+          "href": "https://www.apple.com/apple-vision-pro/specs/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Shop Apple Vision Pro",
+          "href": "https://www.apple.com/us/shop/goto/buy_vision",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Vision Pro Accessories",
+          "href": "https://www.apple.com/us/shop/goto/vision/accessories",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Book a Demo",
+          "href": "https://www.apple.com/retail/instore-shopping-session/session-selection/?topic=visionpro",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Financing",
+          "href": "https://www.apple.com/us/shop/goto/payment_plan",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Personal Setup",
+          "href": "https://www.apple.com/us/shop/goto/personal_setup",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Vision Pro Support",
+          "href": "https://support.apple.com/apple-vision-pro?cid=gn-nav-vision-psp-prodfly",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "AppleCare",
+          "href": "https://www.apple.com/applecare/?filter=apple-vision-pro",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "visionOS 26",
+          "href": "https://www.apple.com/os/visionos/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Vision Pro for Enterprise",
+          "href": "https://www.apple.com/business/enterprise/apple-vision-pro/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "AirPods",
+          "href": "https://www.apple.com/airpods/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Explore All AirPods",
+          "href": "https://www.apple.com/airpods/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "AirPods 4",
+          "href": "https://www.apple.com/airpods-4/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "AirPods Pro 3",
+          "href": "https://www.apple.com/airpods-pro/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "AirPods Max 2",
+          "href": "https://www.apple.com/airpods-max/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Compare AirPods",
+          "href": "https://www.apple.com/airpods/compare/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Shop AirPods",
+          "href": "https://www.apple.com/us/shop/goto/accessories/all_accessories/headphones_speakers?fh=47d1%2B3214%2B45aa%2B45ab&f=apple-overear-sport&page=1",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "AirPods Accessories",
+          "href": "https://www.apple.com/us/shop/goto/airpods/accessories",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "AirPods Support",
+          "href": "https://support.apple.com/airpods?cid=gn-ols-airpods-psp-prodfly",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "AppleCare",
+          "href": "https://www.apple.com/applecare/?filter=headphones",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Hearing Health",
+          "href": "https://www.apple.com/airpods-pro/hearing-health/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Music",
+          "href": "https://www.apple.com/apple-music/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Fitness+",
+          "href": "https://www.apple.com/apple-fitness-plus/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "TV & Home",
+          "href": "https://www.apple.com/tv-home/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Explore TV & Home",
+          "href": "https://www.apple.com/tv-home/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple TV 4K",
+          "href": "https://www.apple.com/apple-tv-4k/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "HomePod",
+          "href": "https://www.apple.com/homepod-2nd-generation/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "HomePod mini",
+          "href": "https://www.apple.com/homepod-mini/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Shop Apple TV 4K",
+          "href": "https://www.apple.com/us/shop/goto/buy_tv/apple_tv_4k",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Shop HomePod",
+          "href": "https://www.apple.com/us/shop/goto/buy_homepod/homepod",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Shop HomePod mini",
+          "href": "https://www.apple.com/us/shop/goto/buy_homepod/homepod_mini",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Shop Siri Remote",
+          "href": "https://www.apple.com/us/shop/goto/product/MW5G3",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "TV & Home Accessories",
+          "href": "https://www.apple.com/us/shop/goto/smart_home/accessories",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple TV Support",
+          "href": "https://support.apple.com/apple-tv?cid=gn-ols-appletv-psp-prodfly",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "HomePod Support",
+          "href": "https://support.apple.com/homepod?cid=gn-ols-homepod-psp-prodfly",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "AppleCare for Apple TV",
+          "href": "https://www.apple.com/applecare/?filter=tv",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "AppleCare for HomePod",
+          "href": "https://www.apple.com/applecare/?filter=homepod",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple TV app",
+          "href": "https://www.apple.com/apple-tv-app/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple TV",
+          "href": "https://www.apple.com/apple-tv/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Home app",
+          "href": "https://www.apple.com/home-app/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Music",
+          "href": "https://www.apple.com/apple-music/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Siri",
+          "href": "https://www.apple.com/siri/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "AirPlay",
+          "href": "https://www.apple.com/airplay/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Entertainment",
+          "href": "https://www.apple.com/entertainment/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Explore Entertainment",
+          "href": "https://www.apple.com/services/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple One",
+          "href": "https://www.apple.com/apple-one/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple TV",
+          "href": "https://www.apple.com/apple-tv/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Music",
+          "href": "https://www.apple.com/apple-music/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Arcade",
+          "href": "https://www.apple.com/apple-arcade/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Fitness+",
+          "href": "https://www.apple.com/apple-fitness-plus/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple News+",
+          "href": "https://www.apple.com/apple-news/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Podcasts",
+          "href": "https://www.apple.com/apple-podcasts/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Books",
+          "href": "https://www.apple.com/apple-books/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "App Store",
+          "href": "https://www.apple.com/app-store/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple TV Support",
+          "href": "https://support.apple.com/tv?cid=gn-ols-tv-psp-prodfly",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Music Support",
+          "href": "https://support.apple.com/music?cid=gn-ols-music-psp-prodfly",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Accessories",
+          "href": "https://www.apple.com/us/shop/goto/buy_accessories",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Shop All Accessories",
+          "href": "https://www.apple.com/us/shop/goto/buy_accessories",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Mac",
+          "href": "https://www.apple.com/us/shop/goto/mac/accessories",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "iPad",
+          "href": "https://www.apple.com/us/shop/goto/ipad/accessories",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "iPhone",
+          "href": "https://www.apple.com/us/shop/goto/iphone/accessories",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Watch",
+          "href": "https://www.apple.com/us/shop/goto/watch/accessories",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Vision Pro",
+          "href": "https://www.apple.com/us/shop/goto/vision/accessories",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "AirPods",
+          "href": "https://www.apple.com/us/shop/goto/airpods/accessories",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "TV & Home",
+          "href": "https://www.apple.com/us/shop/goto/smart_home/accessories",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Made by Apple",
+          "href": "https://www.apple.com/us/shop/goto/accessories/all_accessories/made_by_apple",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Beats",
+          "href": "https://www.apple.com/us/shop/goto/accessories/all_accessories/beats_featured",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "AirTag",
+          "href": "https://www.apple.com/airtag/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Assistive Technologies",
+          "href": "https://www.apple.com/accessibility/assistive-technologies/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Support",
+          "href": "https://support.apple.com/?cid=gn-ols-home-hp-tab",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "iPhone",
+          "href": "https://support.apple.com/iphone?cid=gn-ols-iphone-psp-explore",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Mac",
+          "href": "https://support.apple.com/mac?cid=gn-ols-mac-psp-explore",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "iPad",
+          "href": "https://support.apple.com/ipad?cid=gn-ols-ipad-psp-explore",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Watch",
+          "href": "https://support.apple.com/watch?cid=gn-ols-watch-psp-explore",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Vision Pro",
+          "href": "https://support.apple.com/apple-vision-pro?cid=gn-nav-vision-psp-explore",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "AirPods",
+          "href": "https://support.apple.com/airpods?cid=gn-ols-airpods-psp-explore",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Music",
+          "href": "https://support.apple.com/music?cid=gn-ols-music-psp-explore",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "TV",
+          "href": "https://support.apple.com/tv?cid=gn-ols-tv-psp-explore",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Explore Support",
+          "href": "https://support.apple.com/?cid=gn-ols-home-hp-explore",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Community",
+          "href": "https://discussions.apple.com/welcome?cid=gn-com-community-lp-get_help",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Check Coverage",
+          "href": "https://checkcoverage.apple.com/us/en?cid=gn-ols-checkcoverage-lp-get_help",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Genius Bar",
+          "href": "https://www.apple.com/retail/geniusbar/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Repair",
+          "href": "https://support.apple.com/repair?cid=gn-ols-repair-lp-get_help",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Get AppleCare",
+          "href": "https://www.apple.com/applecare/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Account and Password",
+          "href": "https://support.apple.com/apple-account?cid=gn-ols-appleaccount-psp-helpful_topics",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Billing & Subscriptions",
+          "href": "https://support.apple.com/billing?cid=gn-ols-billing-collection-helpful_topics",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Accessibility",
+          "href": "https://support.apple.com/accessibility?cid=gn-ols-accessibility-psp-helpful_topics",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "No Text Found",
+          "href": "https://www.apple.com/us/search",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Find a Store",
+          "href": "https://www.apple.com/retail/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Vision Pro",
+          "href": "https://www.apple.com/apple-vision-pro/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "AirPods",
+          "href": "https://www.apple.com/airpods/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Intelligence",
+          "href": "https://www.apple.com/apple-intelligence/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Trade In",
+          "href": "https://www.apple.com/us/shop/goto/trade_in",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "0+",
+          "href": "https://www.apple.com/us/shop/goto/bag",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "No Text Found",
+          "href": "https://www.apple.com/iphone/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.apple.com/iphone/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Shop iPhone",
+          "href": "https://www.apple.com/us/shop/goto/buy_iphone",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "No Text Found",
+          "href": "https://www.apple.com/macbook-neo/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.apple.com/macbook-neo/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Buy",
+          "href": "https://www.apple.com/us/shop/goto/buy_mac/macbook_neo",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "No Text Found",
+          "href": "https://www.apple.com/ipad-air/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.apple.com/ipad-air/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Buy",
+          "href": "https://www.apple.com/us/shop/goto/buy_ipad/ipad_air",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "No Text Found",
+          "href": "https://developer.apple.com/wwdc26/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Learn more",
+          "href": "https://developer.apple.com/wwdc26/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "No Text Found",
+          "href": "https://www.apple.com/apple-watch-series-11/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.apple.com/apple-watch-series-11/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Buy",
+          "href": "https://www.apple.com/us/shop/goto/buy_watch/apple_watch_series_11",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "No Text Found",
+          "href": "https://www.apple.com/macbook-pro/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.apple.com/macbook-pro/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Buy",
+          "href": "https://www.apple.com/us/shop/goto/buy_mac/macbook_pro",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "No Text Found",
+          "href": "https://www.apple.com/airpods-pro/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.apple.com/airpods-pro/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Buy",
+          "href": "https://www.apple.com/us/shop/goto/buy_airpods/airpods_pro_3",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "No Text Found",
+          "href": "https://www.apple.com/us/shop/goto/trade_in",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Get your estimate",
+          "href": "https://www.apple.com/us/shop/goto/trade_in",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "No Text Found",
+          "href": "https://www.apple.com/apple-card/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.apple.com/apple-card/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apply now",
+          "href": "https://card.apple.com/apply/application?referrer=cid%3Dapy-200-10000036&start=false",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Item 1",
+          "href": "https://www.apple.com/#endless-entertainment-gallery-item-1",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Item 2",
+          "href": "https://www.apple.com/#endless-entertainment-gallery-item-2",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Item 3",
+          "href": "https://www.apple.com/#endless-entertainment-gallery-item-3",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Item 4",
+          "href": "https://www.apple.com/#endless-entertainment-gallery-item-4",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Item 5",
+          "href": "https://www.apple.com/#endless-entertainment-gallery-item-5",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Item 6",
+          "href": "https://www.apple.com/#endless-entertainment-gallery-item-6",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Item 7",
+          "href": "https://www.apple.com/#endless-entertainment-gallery-item-7",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Item 8",
+          "href": "https://www.apple.com/#endless-entertainment-gallery-item-8",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Item 9",
+          "href": "https://www.apple.com/#endless-entertainment-gallery-item-9",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "<picture>\n\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstatic.com/",
+          "href": "https://tv.apple.com/us/show/your-friends--neighbors/umc.cmc.74o37kzay0yuuub8iumddjsg?l=en-US?itscg=10000&itsct=atv-apl_hp-stream_now--220622",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "<picture>\n\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstatic.com/",
+          "href": "https://tv.apple.com/us/show/imperfect-women/umc.cmc.1w2rmpbqzt24879bt7109zgi6?l=en-US?itscg=10000&itsct=atv-apl_hp-stream_now--220622",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "<picture>\n\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstatic.com/",
+          "href": "https://tv.apple.com/us/room/formula-1/uts.room.formula-1?itscg=10000&itsct=atv-apl_hp-stream_now--220622",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "<picture>\n\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstatic.com/",
+          "href": "https://tv.apple.com/us/show/shrinking/umc.cmc.apzybj6eqf6pzccd97kev7bs?l=en-US?itscg=10000&itsct=atv-apl_hp-stream_now--220622",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "<picture>\n\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstatic.com/",
+          "href": "https://tv.apple.com/us/channel/mls/tvs.sbd.7000?itscg=10000&itsct=atv-apl_hp-stream_now--220622",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "<picture>\n\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstatic.com/",
+          "href": "https://tv.apple.com/us/show/for-all-mankind/umc.cmc.6wsi780sz5tdbqcf11k76mkp7?l=en-US?itscg=10000&itsct=atv-apl_hp-stream_now--220622",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "<picture>\n\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstatic.com/",
+          "href": "https://tv.apple.com/us/room/friday-night-baseball/edt.item.62327df1-6874-470e-98b2-a5bbeac509a2?itscg=10000&itsct=atv-apl_hp-stream_now--220622",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "<picture>\n\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstatic.com/",
+          "href": "https://tv.apple.com/us/show/monarch-legacy-of-monsters/umc.cmc.62l8x0ixrhyq3yaqa5y8yo7ew?l=en-US?itscg=10000&itsct=atv-apl_hp-stream_now--220622",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "<picture>\n\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstatic.com/",
+          "href": "https://tv.apple.com/us/movie/f1-the-movie/umc.cmc.3t6dvnnr87zwd4wmvpdx5came?l=en-US?itscg=10000&itsct=atv-apl_hp-stream_now--220622",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "<picture>\n\t\t\t\t\t\t\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstati",
+          "href": "https://fitness.apple.com/us/workout/yoga-with-molly/1878230640?itscg=10000&itsct=afp-apl_hp-watch_now--240326",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "<picture>\n\t\t\t\t\t\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstatic",
+          "href": "https://apps.apple.com/us/app/hello-kitty-island-adventure/id1553505132?itscg=10000&itsct=aa-apl_hp-play_now--240326",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "<picture>\n\t\t\t\t\t\t\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstati",
+          "href": "https://music.apple.com/us/station/sabrina-carpenter-the-zane-lowe-interview/ra.1837392419?itscg=10000&itsct=am-apl_hp-listen_now--240326",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "<picture>\n\t\t\t\t\t\t\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstati",
+          "href": "https://fitness.apple.com/us/studio-collection/f1-the-movie/1819769713?itscg=10000&itsct=afp-apl_hp-watch_now--240326",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "<picture>\n\t\t\t\t\t\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstatic",
+          "href": "https://apps.apple.com/us/app/powerwash-simulator/id6477445344?itscg=10000&itsct=aa-apl_hp-play_now--240326",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "<picture>\n\t\t\t\t\t\t\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstati",
+          "href": "https://music.apple.com/us/playlist/a-list-pop/pl.5ee8333dbe944d9f9151e97d92d1ead9?itscg=10000&itsct=am-apl_hp-listen_now--240326",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "<picture>\n\t\t\t\t\t\t\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstati",
+          "href": "https://fitness.apple.com/us/studio-collection/get-your-glutes-in-great-shape/1710038259?itscg=10000&itsct=afp-apl_hp-watch_now--240326",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "<picture>\n\t\t\t\t\t\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstatic",
+          "href": "https://apps.apple.com/us/app/spongebob-patty-pursuit-2/id6472008605?itscg=10000&itsct=aa-apl_hp-play_now--240326",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "<picture>\n\t\t\t\t\t\t\t\t\t\t\t<source srcset=\"https://is1-ssl.mzstati",
+          "href": "https://music.apple.com/us/playlist/new-music-daily/pl.2b0e6e332fdf4b7a91164da3162127b5?itscg=10000&itsct=am-apl_hp-listen_now--240326",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "support.apple.com/kb/HT209218",
+          "href": "https://support.apple.com/kb/HT209218",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Store",
+          "href": "https://www.apple.com/us/shop/goto/store",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Mac",
+          "href": "https://www.apple.com/mac/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "iPad",
+          "href": "https://www.apple.com/ipad/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "iPhone",
+          "href": "https://www.apple.com/iphone/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Watch",
+          "href": "https://www.apple.com/watch/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Vision",
+          "href": "https://www.apple.com/apple-vision-pro/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "AirPods",
+          "href": "https://www.apple.com/airpods/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "TV & Home",
+          "href": "https://www.apple.com/tv-home/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "AirTag",
+          "href": "https://www.apple.com/airtag/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Accessories",
+          "href": "https://www.apple.com/us/shop/goto/buy_accessories",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Gift Cards",
+          "href": "https://www.apple.com/us/shop/goto/giftcards",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Wallet",
+          "href": "https://www.apple.com/wallet/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Card",
+          "href": "https://www.apple.com/apple-card/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Pay",
+          "href": "https://www.apple.com/apple-pay/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Cash",
+          "href": "https://www.apple.com/apple-cash/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Manage Your Apple Account",
+          "href": "https://account.apple.com/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Store Account",
+          "href": "https://www.apple.com/us/shop/goto/account",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "iCloud.com",
+          "href": "https://www.icloud.com/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple One",
+          "href": "https://www.apple.com/apple-one/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple TV",
+          "href": "https://www.apple.com/apple-tv/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Music",
+          "href": "https://www.apple.com/apple-music/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Arcade",
+          "href": "https://www.apple.com/apple-arcade/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Fitness+",
+          "href": "https://www.apple.com/apple-fitness-plus/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple News+",
+          "href": "https://www.apple.com/apple-news/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Podcasts",
+          "href": "https://www.apple.com/apple-podcasts/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Books",
+          "href": "https://www.apple.com/apple-books/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "App Store",
+          "href": "https://www.apple.com/app-store/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Find a Store",
+          "href": "https://www.apple.com/retail/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Genius Bar",
+          "href": "https://www.apple.com/retail/geniusbar/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Today at Apple",
+          "href": "https://www.apple.com/today/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Group Reservations",
+          "href": "https://www.apple.com/today/groups/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Camp",
+          "href": "https://www.apple.com/today/camp/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Store App",
+          "href": "https://apps.apple.com/us/app/apple-store/id375380948",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Certified Refurbished",
+          "href": "https://www.apple.com/us/shop/goto/special_deals",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple Trade In",
+          "href": "https://www.apple.com/us/shop/goto/trade_in",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Financing",
+          "href": "https://www.apple.com/us/shop/goto/payment_plan",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Carrier Deals at Apple",
+          "href": "https://www.apple.com/us/shop/goto/buy_iphone/carrier_offers",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Order Status",
+          "href": "https://www.apple.com/us/shop/goto/order/list",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Shopping Help",
+          "href": "https://www.apple.com/us/shop/goto/help",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple and Business",
+          "href": "https://www.apple.com/business/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Shop for Business",
+          "href": "https://www.apple.com/retail/business/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple and Education",
+          "href": "https://www.apple.com/education/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Shop for K-12",
+          "href": "https://www.apple.com/education/k12/how-to-buy/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Shop for College",
+          "href": "https://www.apple.com/us/shop/goto/educationrouting",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Apple and Healthcare",
+          "href": "https://www.apple.com/healthcare/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple and Government",
+          "href": "https://www.apple.com/government/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Shop for Veterans and Military",
+          "href": "https://www.apple.com/us/shop/goto/eppstore/veteransandmilitary",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Shop for State and Local Employees",
+          "href": "https://www.apple.com/us_epp_67909/store",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Shop for Federal Employees",
+          "href": "https://www.apple.com/us_epp_55499/store",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Accessibility",
+          "href": "https://www.apple.com/accessibility/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Education",
+          "href": "https://www.apple.com/education-initiative/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Environment",
+          "href": "https://www.apple.com/environment/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Inclusion and Diversity",
+          "href": "https://www.apple.com/diversity/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://www.apple.com/privacy/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "Racial Equity and Justice",
+          "href": "https://www.apple.com/racial-equity-justice-initiative/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Supply Chain Innovation",
+          "href": "https://www.apple.com/supply-chain/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Newsroom",
+          "href": "https://www.apple.com/newsroom/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Apple Leadership",
+          "href": "https://www.apple.com/leadership/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Career Opportunities",
+          "href": "https://www.apple.com/careers/us/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Investors",
+          "href": "https://investor.apple.com/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Ethics & Compliance",
+          "href": "https://www.apple.com/compliance/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Events",
+          "href": "https://www.apple.com/apple-events/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Contact Apple",
+          "href": "https://www.apple.com/contact/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Find an Apple Store",
+          "href": "https://www.apple.com/retail/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        },
+        {
+          "text": "other retailer",
+          "href": "https://locate.apple.com/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "1-800-MY-APPLE",
+          "href": "tel:1-800-692-7753",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "United States",
+          "href": "https://www.apple.com/choose-country-region/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.apple.com/legal/privacy/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Terms of Use",
+          "href": "https://www.apple.com/legal/internet-services/terms/site.html",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Sales and Refunds",
+          "href": "https://www.apple.com/us/shop/goto/help/sales_refunds",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Legal",
+          "href": "https://www.apple.com/legal/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "Site Map",
+          "href": "https://www.apple.com/sitemap/",
+          "isDuplicate": false,
+          "status": 200,
+          "reason": "Link Discovered"
+        },
+        {
+          "text": "United States",
+          "href": "https://www.apple.com/choose-country-region/",
+          "isDuplicate": true,
+          "status": 200,
+          "reason": "Duplicate Link"
+        }
+      ],
+      "elementsInfo": {
+        "seo": {
+          "title": "Apple",
+          "description": "Discover the innovative world of Apple and shop everything iPhone, iPad, Apple Watch, Mac, and Apple TV, plus explore accessories, entertainment, and expert device support.",
+          "keywords": "None",
+          "ogType": "website",
+          "ogTitle": "Apple",
+          "hasMetaDescription": true,
+          "hasOgDescription": true,
+          "hasOgType": true,
+          "hasViewport": true
+        },
+        "counts": {
+          "images": 49,
+          "links": 338,
+          "h1": 1,
+          "forms": 1,
+          "duplicateImages": 8,
+          "duplicateLinks": 119,
+          "missingSrc": 0,
+          "missingAlt": 40,
+          "brokenLinks": 0,
+          "linksChecked": 338
+        },
+        "broken": {
+          "images": [],
+          "links": []
+        },
+        "badImages": [
+          {
+            "index": 2,
+            "src": "/v/home/a/images/logos/ipad-air-m4/hero_logo_ipad_air__ejixj9pic0uq_large.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 5,
+            "src": "/v/home/a/images/logos/apple-watch-series-11/promo_logo_apple_watch_series_11__d9br21pxygya_large.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 9,
+            "src": "/v/home/a/images/logos/iphone-tradein/promo_logo_iphone_tradein__7y3gtai5az66_large.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 11,
+            "src": "/v/home/a/images/logos/apple-card/promo_apple_card__5cm7draujpey_large.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 13,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/pa_Dd2CLL-BlWQRqIurClw/1250x668sr.jpg",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 14,
+            "src": "/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 15,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/J7bMKs9REENSizTYepOTeg/220x54.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 16,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/za7Mqkp-OSK_2BHWq8AtSQ/1250x668sr.jpg",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 17,
+            "src": "/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 18,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/tvDS8CeEzaCZcSidQYYa0A/220x54.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 19,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/5d/6b/8a/5d6b8a24-1ba8-6a08-8596-47d0cadacd5d/fc3f421a-0ae3-48fa-9cfc-bf3c4f6240e2.png/1250x668sr.jpg",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 20,
+            "src": "/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 21,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/f0/ac/1e/f0ac1e58-0027-49d0-378e-68470edfb0ec/3b7d6fac-0061-401c-9716-742245053fd0.png/220x54.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 22,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/OmAEHiPsBUBSNjqgm9ItjA/1250x668sr.jpg",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 23,
+            "src": "/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 24,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/lvZ2b3skKnno7C-36QvFrg/220x54.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 25,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/f2/4e/e3/f24ee3d7-7259-eb81-141c-ecc587d62dff/9d737dbe-b401-4b72-94ef-74c77cf5a95a.png/1250x668sr.jpg",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 26,
+            "src": "/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 27,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/Kc1Xx3Z1QBOuXe1EHDu4TA/220x54.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 28,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/HntOU0HJBFL_Tp0fasZQtQ/1250x668sr.jpg",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 29,
+            "src": "/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 30,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/v-xqGz_rdBcQ-OZ4HvFeVw/220x54.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 31,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/1250x668sr.jpg",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 32,
+            "src": "/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 33,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/6f/41/7c/6f417c01-dbf7-6cdc-df62-f014aa88a673/e452926f-7b52-4c05-a07f-8e4939b1bf6b.png/220x54.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 34,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/ubyMKBPSumJZe4z6Nn1A2A/1250x668sr.jpg",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 35,
+            "src": "/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 36,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/2Pvq9Q1gy7cxOpfXK1_8Ew/220x54.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 37,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/zLbkVwwHwe8I5EtuXc8wWg/1250x668sr.jpg",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 38,
+            "src": "/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 39,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/RHO4MKL0MT0Daq-hINei5w/220x54.png",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 40,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/Video211/v4/3d/02/42/3d0242c5-9272-d2b1-355f-76306fdaca45/YO_MF_0272_artwork_en_ID309049_0.png/470x264.jpg",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 41,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/470x264.jpg",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 42,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/226x226sr.jpg",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 43,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/4e/d8/a1/4ed8a14a-6059-12bf-c51e-3c018ed0ffea/bb4a926a-a5b7-45ce-a0f3-ecc139576c6a.png/470x264.jpg",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 44,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/470x264.jpg",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 45,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/a7/d4/b2/a7d4b2dd-2ce5-7414-93f8-fe0b8569abd8/8cd4f64c-44a7-400d-929d-5279622bd6ac.png/226x226SC.DN01.jpg?l=en-US",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 46,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/1d/e7/0b/1de70bac-4e88-e8f9-bac3-7824757058fb/dbf14aec-bece-4ea1-b898-393cbb07c77f.png/470x264.jpg",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 47,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/20/56/2b/20562bcb-a666-0f36-367d-7e188766eec6/85a24e2f-a12f-443a-a5c1-ddd78b076bc2.png/470x264.jpg",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          },
+          {
+            "index": 48,
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/de/80/fe/de80fe0c-512c-0046-d124-dc7b83ba921f/d8b341d6-2731-4d45-88df-6f668110fda0.png/226x226SC.DN01.jpg?l=en-US",
+            "alt": "EMPTY",
+            "issue": "Missing ALT",
+            "missingSrc": false,
+            "missingAlt": true,
+            "isBroken": false,
+            "tag": "img"
+          }
+        ]
+      },
+      "imageCheckResults": [
+        {
+          "index": 0,
+          "src": "/v/home/a/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_large.jpg",
+          "alt": "iPhone 17 Pro, back exterior, deep blue color, Pro Fusion camera system in top left corner, Apple logo in center, iPhone 17, back exterior, white color, Dual Fusion camera system in top left corner, Apple logo in center, iPhone 17e, back exterior, soft pink color, Fusion camera system in top left corner, Apple logo in center, iPhone Air, side, titanium frame profile, Fusion camera system in top left corner",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 3008,
+          "naturalHeight": 692,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (3008x692)",
+          "displayWidth": 3008,
+          "displayHeight": 692
+        },
+        {
+          "index": 1,
+          "src": "/v/home/a/images/heroes/macbook-neo/hero_macbook_neo__gnm3snkti4a6_large.jpg",
+          "alt": "MacBook Neo in bright citrus color, balanced on fingertips of open hand, screen displaying colorful abstract pattern",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 3008,
+          "naturalHeight": 692,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (3008x692)",
+          "displayWidth": 3008,
+          "displayHeight": 692
+        },
+        {
+          "index": 2,
+          "src": "/v/home/a/images/logos/ipad-air-m4/hero_logo_ipad_air__ejixj9pic0uq_large.png",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 201,
+          "naturalHeight": 66,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (201x66)",
+          "displayWidth": 201,
+          "displayHeight": 66
+        },
+        {
+          "index": 3,
+          "src": "/v/home/a/images/heroes/ipad-air-m4/hero_ipad_air_m4__ew8k92mk1w6e_large.jpg",
+          "alt": "iPad Air models floating, back exterior, single-lens camera, front exterior, rounded corners, black display bezel",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 3008,
+          "naturalHeight": 692,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (3008x692)",
+          "displayWidth": 3008,
+          "displayHeight": 692
+        },
+        {
+          "index": 4,
+          "src": "/v/home/a/images/promos/wwdc26-announce/promo_wwdc26_announce__b74q051bn5ki_large.jpg",
+          "alt": "Text on image, W W D C 26. June 8 through 12. Learn More, Apple Worldwide Developers Conference.",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 580,
+          "displayHeight": 580
+        },
+        {
+          "index": 5,
+          "src": "/v/home/a/images/logos/apple-watch-series-11/promo_logo_apple_watch_series_11__d9br21pxygya_large.png",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 1,
+          "displayHeight": 1
+        },
+        {
+          "index": 6,
+          "src": "/v/home/a/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_large.jpg",
+          "alt": "Apple Watch Series 11, rose gold color, aluminum case, sleep score, right side exterior, Digital Crown, microphone, side button, starlight Sport Band",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 580,
+          "displayHeight": 580
+        },
+        {
+          "index": 7,
+          "src": "/v/home/a/images/promos/macbook-pro/promo_macbook_pro__e3xqrygvp9ea_large.jpg",
+          "alt": "MacBook Pro positioned into the shape of a V, referencing the M5 chip family",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 580,
+          "displayHeight": 580
+        },
+        {
+          "index": 8,
+          "src": "/v/home/a/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_large.jpg",
+          "alt": "AirPods Pro 3, wireless headphones, white color, silicone tips",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 580,
+          "displayHeight": 580
+        },
+        {
+          "index": 9,
+          "src": "/v/home/a/images/logos/iphone-tradein/promo_logo_iphone_tradein__7y3gtai5az66_large.png",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 1,
+          "displayHeight": 1
+        },
+        {
+          "index": 10,
+          "src": "/v/home/a/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large.jpg",
+          "alt": "Side-by-side, hand holding iPhone 13 in silicon case with stickers on back exterior, trade-in with hand holding new iPhone box for iPhone 17 Pro",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 580,
+          "displayHeight": 580
+        },
+        {
+          "index": 11,
+          "src": "/v/home/a/images/logos/apple-card/promo_apple_card__5cm7draujpey_large.png",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 1,
+          "displayHeight": 1
+        },
+        {
+          "index": 12,
+          "src": "/v/home/a/images/promos/apple-card/promo_apple_card__5cm7draujpey_large.jpg",
+          "alt": "Apple Card, front, Apple logo in top left, cardholder name in middle left Marisa Robertson, card chip in middle right.",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 580,
+          "displayHeight": 580
+        },
+        {
+          "index": 13,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/pa_Dd2CLL-BlWQRqIurClw/1250x668sr.jpg",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 1250,
+          "displayHeight": 1250
+        },
+        {
+          "index": 14,
+          "src": "/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+          "alt": "MISSING",
+          "isVisible": false,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "HIDDEN",
+          "reason": "Image is not visible on screen (display:none, hidden, or zero size)",
+          "displayWidth": 0,
+          "displayHeight": 0
+        },
+        {
+          "index": 15,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/J7bMKs9REENSizTYepOTeg/220x54.png",
+          "alt": "MISSING",
+          "isVisible": false,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "HIDDEN",
+          "reason": "Image is not visible on screen (display:none, hidden, or zero size)",
+          "displayWidth": 0,
+          "displayHeight": 0
+        },
+        {
+          "index": 16,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/za7Mqkp-OSK_2BHWq8AtSQ/1250x668sr.jpg",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 1250,
+          "displayHeight": 1250
+        },
+        {
+          "index": 17,
+          "src": "/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+          "alt": "MISSING",
+          "isVisible": false,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "HIDDEN",
+          "reason": "Image is not visible on screen (display:none, hidden, or zero size)",
+          "displayWidth": 0,
+          "displayHeight": 0
+        },
+        {
+          "index": 18,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/tvDS8CeEzaCZcSidQYYa0A/220x54.png",
+          "alt": "MISSING",
+          "isVisible": false,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "HIDDEN",
+          "reason": "Image is not visible on screen (display:none, hidden, or zero size)",
+          "displayWidth": 0,
+          "displayHeight": 0
+        },
+        {
+          "index": 19,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/5d/6b/8a/5d6b8a24-1ba8-6a08-8596-47d0cadacd5d/fc3f421a-0ae3-48fa-9cfc-bf3c4f6240e2.png/1250x668sr.jpg",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 1250,
+          "displayHeight": 1250
+        },
+        {
+          "index": 20,
+          "src": "/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+          "alt": "MISSING",
+          "isVisible": false,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "HIDDEN",
+          "reason": "Image is not visible on screen (display:none, hidden, or zero size)",
+          "displayWidth": 0,
+          "displayHeight": 0
+        },
+        {
+          "index": 21,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/f0/ac/1e/f0ac1e58-0027-49d0-378e-68470edfb0ec/3b7d6fac-0061-401c-9716-742245053fd0.png/220x54.png",
+          "alt": "MISSING",
+          "isVisible": false,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "HIDDEN",
+          "reason": "Image is not visible on screen (display:none, hidden, or zero size)",
+          "displayWidth": 0,
+          "displayHeight": 0
+        },
+        {
+          "index": 22,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/OmAEHiPsBUBSNjqgm9ItjA/1250x668sr.jpg",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 1250,
+          "displayHeight": 1250
+        },
+        {
+          "index": 23,
+          "src": "/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+          "alt": "MISSING",
+          "isVisible": false,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "HIDDEN",
+          "reason": "Image is not visible on screen (display:none, hidden, or zero size)",
+          "displayWidth": 0,
+          "displayHeight": 0
+        },
+        {
+          "index": 24,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/lvZ2b3skKnno7C-36QvFrg/220x54.png",
+          "alt": "MISSING",
+          "isVisible": false,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "HIDDEN",
+          "reason": "Image is not visible on screen (display:none, hidden, or zero size)",
+          "displayWidth": 0,
+          "displayHeight": 0
+        },
+        {
+          "index": 25,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/f2/4e/e3/f24ee3d7-7259-eb81-141c-ecc587d62dff/9d737dbe-b401-4b72-94ef-74c77cf5a95a.png/1250x668sr.jpg",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 1250,
+          "displayHeight": 1250
+        },
+        {
+          "index": 26,
+          "src": "/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+          "alt": "MISSING",
+          "isVisible": false,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "HIDDEN",
+          "reason": "Image is not visible on screen (display:none, hidden, or zero size)",
+          "displayWidth": 0,
+          "displayHeight": 0
+        },
+        {
+          "index": 27,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/Kc1Xx3Z1QBOuXe1EHDu4TA/220x54.png",
+          "alt": "MISSING",
+          "isVisible": false,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "HIDDEN",
+          "reason": "Image is not visible on screen (display:none, hidden, or zero size)",
+          "displayWidth": 0,
+          "displayHeight": 0
+        },
+        {
+          "index": 28,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/HntOU0HJBFL_Tp0fasZQtQ/1250x668sr.jpg",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 1250,
+          "displayHeight": 1250
+        },
+        {
+          "index": 29,
+          "src": "/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+          "alt": "MISSING",
+          "isVisible": false,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "HIDDEN",
+          "reason": "Image is not visible on screen (display:none, hidden, or zero size)",
+          "displayWidth": 0,
+          "displayHeight": 0
+        },
+        {
+          "index": 30,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/v-xqGz_rdBcQ-OZ4HvFeVw/220x54.png",
+          "alt": "MISSING",
+          "isVisible": false,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "HIDDEN",
+          "reason": "Image is not visible on screen (display:none, hidden, or zero size)",
+          "displayWidth": 0,
+          "displayHeight": 0
+        },
+        {
+          "index": 31,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/9e/cf/339ecfe7-f515-8594-2e48-d991803409ea/5a944fdc-acd7-47a8-89e7-274d84cf4276.png/1250x668sr.jpg",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 1250,
+          "displayHeight": 1250
+        },
+        {
+          "index": 32,
+          "src": "/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+          "alt": "MISSING",
+          "isVisible": false,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "HIDDEN",
+          "reason": "Image is not visible on screen (display:none, hidden, or zero size)",
+          "displayWidth": 0,
+          "displayHeight": 0
+        },
+        {
+          "index": 33,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/6f/41/7c/6f417c01-dbf7-6cdc-df62-f014aa88a673/e452926f-7b52-4c05-a07f-8e4939b1bf6b.png/220x54.png",
+          "alt": "MISSING",
+          "isVisible": false,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "HIDDEN",
+          "reason": "Image is not visible on screen (display:none, hidden, or zero size)",
+          "displayWidth": 0,
+          "displayHeight": 0
+        },
+        {
+          "index": 34,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/ubyMKBPSumJZe4z6Nn1A2A/1250x668sr.jpg",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 1250,
+          "displayHeight": 1250
+        },
+        {
+          "index": 35,
+          "src": "/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+          "alt": "MISSING",
+          "isVisible": false,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "HIDDEN",
+          "reason": "Image is not visible on screen (display:none, hidden, or zero size)",
+          "displayWidth": 0,
+          "displayHeight": 0
+        },
+        {
+          "index": 36,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/2Pvq9Q1gy7cxOpfXK1_8Ew/220x54.png",
+          "alt": "MISSING",
+          "isVisible": false,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "HIDDEN",
+          "reason": "Image is not visible on screen (display:none, hidden, or zero size)",
+          "displayWidth": 0,
+          "displayHeight": 0
+        },
+        {
+          "index": 37,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/zLbkVwwHwe8I5EtuXc8wWg/1250x668sr.jpg",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 1250,
+          "displayHeight": 1250
+        },
+        {
+          "index": 38,
+          "src": "/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+          "alt": "MISSING",
+          "isVisible": false,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "HIDDEN",
+          "reason": "Image is not visible on screen (display:none, hidden, or zero size)",
+          "displayWidth": 0,
+          "displayHeight": 0
+        },
+        {
+          "index": 39,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/RHO4MKL0MT0Daq-hINei5w/220x54.png",
+          "alt": "MISSING",
+          "isVisible": false,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "HIDDEN",
+          "reason": "Image is not visible on screen (display:none, hidden, or zero size)",
+          "displayWidth": 0,
+          "displayHeight": 0
+        },
+        {
+          "index": 40,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/Video211/v4/3d/02/42/3d0242c5-9272-d2b1-355f-76306fdaca45/YO_MF_0272_artwork_en_ID309049_0.png/470x264.jpg",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 470,
+          "displayHeight": 470
+        },
+        {
+          "index": 41,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5b/b3/4a/5bb34a60-695c-a96f-75ec-8a957fc2a20b/45899847-e52c-44a1-9ce5-09aedebb7a78.png/470x264.jpg",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 470,
+          "displayHeight": 470
+        },
+        {
+          "index": 42,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/2b/5f/552b5f86-46e6-d848-ee06-5395bf09c206/83e0ed3d-c824-4ed9-9572-ae9e784568cb.png/226x226sr.jpg",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 1,
+          "displayHeight": 1
+        },
+        {
+          "index": 43,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/4e/d8/a1/4ed8a14a-6059-12bf-c51e-3c018ed0ffea/bb4a926a-a5b7-45ce-a0f3-ecc139576c6a.png/470x264.jpg",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 470,
+          "displayHeight": 470
+        },
+        {
+          "index": 44,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/53/55/d7/5355d758-e5b7-b406-f004-bb98d03ecb38/9388d284-2a0b-43e8-86e0-5852e8559d18.png/470x264.jpg",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 470,
+          "displayHeight": 470
+        },
+        {
+          "index": 45,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/a7/d4/b2/a7d4b2dd-2ce5-7414-93f8-fe0b8569abd8/8cd4f64c-44a7-400d-929d-5279622bd6ac.png/226x226SC.DN01.jpg?l=en-US",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 1,
+          "displayHeight": 1
+        },
+        {
+          "index": 46,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/1d/e7/0b/1de70bac-4e88-e8f9-bac3-7824757058fb/dbf14aec-bece-4ea1-b898-393cbb07c77f.png/470x264.jpg",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 470,
+          "displayHeight": 470
+        },
+        {
+          "index": 47,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/20/56/2b/20562bcb-a666-0f36-367d-7e188766eec6/85a24e2f-a12f-443a-a5c1-ddd78b076bc2.png/470x264.jpg",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 470,
+          "displayHeight": 470
+        },
+        {
+          "index": 48,
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/de/80/fe/de80fe0c-512c-0046-d124-dc7b83ba921f/d8b341d6-2731-4d45-88df-6f668110fda0.png/226x226SC.DN01.jpg?l=en-US",
+          "alt": "MISSING",
+          "isVisible": true,
+          "isComplete": true,
+          "naturalWidth": 1,
+          "naturalHeight": 1,
+          "isLoaded": true,
+          "isBroken": false,
+          "status": "OK",
+          "reason": "Image loaded successfully (1x1)",
+          "displayWidth": 1,
+          "displayHeight": 1
+        }
+      ],
+      "videoCheckResults": [],
+      "aiAnalysis": {
+        "overallScore": 0,
+        "error": "Gemini API key not configured. Add GEMINI_API_KEY to .env file.",
+        "uiDesignFeedback": {
+          "score": 0,
+          "strengths": [],
+          "issues": [
+            "AI analysis unavailable"
+          ],
+          "suggestions": [
+            "Configure GEMINI_API_KEY for AI-powered analysis"
+          ]
+        },
+        "pageStructure": {
+          "score": 0,
+          "hasHeader": false,
+          "hasFooter": false,
+          "hasNavigation": false,
+          "hasCTA": false,
+          "layoutType": "unknown",
+          "observations": [
+            "Analysis not performed"
+          ]
+        },
+        "contentAnalysis": {
+          "score": 0,
+          "keywordErrors": [],
+          "spellingIssues": [],
+          "readabilityScore": 0,
+          "observations": [
+            "Analysis not performed"
+          ]
+        },
+        "layoutIssues": {
+          "score": 0,
+          "issues": [],
+          "alignmentProblems": [],
+          "spacingIssues": [],
+          "responsiveness": "unknown"
+        },
+        "accessibilityNotes": [],
+        "summary": "Analysis could not be completed: Gemini API key not configured. Add GEMINI_API_KEY to .env file."
+      },
+      "groqAnalysis": {
+        "elementAnalysis": {
+          "success": true,
+          "pageOverview": "The page appears to be the main website of Apple, showcasing various products and services.",
+          "buttons": [
+            {
+              "text": "Learn more",
+              "location": "body",
+              "type": "cta",
+              "visibleState": "enabled"
+            },
+            {
+              "text": "Buy",
+              "location": "body",
+              "type": "cta",
+              "visibleState": "enabled"
+            },
+            {
+              "text": "Shop iPhone",
+              "location": "header",
+              "type": "cta",
+              "visibleState": "enabled"
+            },
+            {
+              "text": "Support",
+              "location": "header",
+              "type": "navigation",
+              "visibleState": "enabled"
+            },
+            {
+              "text": "Search",
+              "location": "header",
+              "type": "navigation",
+              "visibleState": "enabled"
+            }
+          ],
+          "inputFields": [],
+          "forms": [],
+          "errors": [],
+          "links": [
+            {
+              "text": "iPhone",
+              "location": "header",
+              "type": "navigation"
+            },
+            {
+              "text": "Mac",
+              "location": "header",
+              "type": "navigation"
+            },
+            {
+              "text": "iPad",
+              "location": "header",
+              "type": "navigation"
+            },
+            {
+              "text": "Watch",
+              "location": "header",
+              "type": "navigation"
+            },
+            {
+              "text": "TV & Home",
+              "location": "header",
+              "type": "navigation"
+            },
+            {
+              "text": "Entertainment",
+              "location": "header",
+              "type": "navigation"
+            },
+            {
+              "text": "Accessories",
+              "location": "header",
+              "type": "navigation"
+            }
+          ],
+          "images": {
+            "total": 7,
+            "brokenOrMissing": 0,
+            "missingAlt": 0
+          },
+          "navigation": {
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasSidebar": false,
+            "menuItems": [
+              "Store",
+              "Mac",
+              "iPad",
+              "iPhone",
+              "Watch",
+              "TV & Home",
+              "Entertainment",
+              "Accessories",
+              "Support"
+            ]
+          },
+          "visualIssues": []
+        },
+        "testSuggestions": {
+          "success": true,
+          "testSuite": "Apple - Automated Tests",
+          "totalTests": 24,
+          "testCategories": [
+            {
+              "category": "Navigation",
+              "tests": [
+                {
+                  "id": "TC_1",
+                  "name": "Verify Header Navigation Links",
+                  "description": "Verify that all navigation links in the header are displayed and clickable",
+                  "priority": "P0",
+                  "type": "functional",
+                  "steps": [
+                    "Launch the website",
+                    "Verify that 'iPhone', 'Mac', 'iPad', 'Watch', 'TV & Home', 'Entertainment', 'Accessories', and 'Support' links are present in the header"
+                  ],
+                  "expectedResult": "All navigation links in the header are displayed and clickable",
+                  "automatable": true
+                },
+                {
+                  "id": "TC_2",
+                  "name": "Verify Footer Links",
+                  "description": "Verify that all links in the footer are displayed and clickable",
+                  "priority": "P0",
+                  "type": "functional",
+                  "steps": [
+                    "Launch the website",
+                    "Scroll to the footer",
+                    "Verify that 'Shop and Learn', 'Account', 'Apple Store', 'For Business', 'For Education', 'For Healthcare', 'For Government', 'Apple Support', and 'Site Map' links are present"
+                  ],
+                  "expectedResult": "All links in the footer are displayed and clickable",
+                  "automatable": true
+                }
+              ]
+            },
+            {
+              "category": "Buttons",
+              "tests": [
+                {
+                  "id": "TC_3",
+                  "name": "Verify 'Learn more' Buttons",
+                  "description": "Verify that all 'Learn more' buttons are displayed and clickable",
+                  "priority": "P1",
+                  "type": "functional",
+                  "steps": [
+                    "Launch the website",
+                    "Verify that 'Learn more' buttons are present for iPhone, MacBook Neo, iPad air, MacBook Pro, and AirPods Pro 3"
+                  ],
+                  "expectedResult": "All 'Learn more' buttons are displayed and clickable",
+                  "automatable": true
+                },
+                {
+                  "id": "TC_4",
+                  "name": "Verify 'Buy' Buttons",
+                  "description": "Verify that all 'Buy' buttons are displayed and clickable",
+                  "priority": "P1",
+                  "type": "functional",
+                  "steps": [
+                    "Launch the website",
+                    "Verify that 'Buy' buttons are present for iPhone, MacBook Neo, iPad air, MacBook Pro, and AirPods Pro 3"
+                  ],
+                  "expectedResult": "All 'Buy' buttons are displayed and clickable",
+                  "automatable": true
+                }
+              ]
+            },
+            {
+              "category": "Links",
+              "tests": [
+                {
+                  "id": "TC_5",
+                  "name": "Verify Product Links",
+                  "description": "Verify that all product links are displayed and clickable",
+                  "priority": "P1",
+                  "type": "functional",
+                  "steps": [
+                    "Launch the website",
+                    "Verify that links for iPhone, Mac, iPad, Watch, TV & Home, Entertainment, and Accessories are present in the header"
+                  ],
+                  "expectedResult": "All product links are displayed and clickable",
+                  "automatable": true
+                }
+              ]
+            },
+            {
+              "category": "Visual",
+              "tests": [
+                {
+                  "id": "TC_6",
+                  "name": "Verify Page Title",
+                  "description": "Verify that the page title is 'Apple'",
+                  "priority": "P0",
+                  "type": "visual",
+                  "steps": [
+                    "Launch the website",
+                    "Verify that the page title is 'Apple'"
+                  ],
+                  "expectedResult": "The page title is 'Apple'",
+                  "automatable": true
+                },
+                {
+                  "id": "TC_7",
+                  "name": "Verify Images",
+                  "description": "Verify that all images are displayed correctly",
+                  "priority": "P1",
+                  "type": "visual",
+                  "steps": [
+                    "Launch the website",
+                    "Verify that all images are displayed correctly"
+                  ],
+                  "expectedResult": "All images are displayed correctly",
+                  "automatable": true
+                }
+              ]
+            },
+            {
+              "category": "Responsive",
+              "tests": [
+                {
+                  "id": "TC_8",
+                  "name": "Verify Responsiveness",
+                  "description": "Verify that the website is responsive",
+                  "priority": "P1",
+                  "type": "functional",
+                  "steps": [
+                    "Launch the website on different devices or browsers",
+                    "Verify that the website layout adapts to different screen sizes"
+                  ],
+                  "expectedResult": "The website is responsive",
+                  "automatable": true
+                }
+              ]
+            },
+            {
+              "category": "Error Handling",
+              "tests": [
+                {
+                  "id": "TC_9",
+                  "name": "Verify Error Handling",
+                  "description": "Verify that the website handles errors correctly",
+                  "priority": "P2",
+                  "type": "negative",
+                  "steps": [
+                    "Launch the website",
+                    "Simulate an error",
+                    "Verify that the website handles the error correctly"
+                  ],
+                  "expectedResult": "The website handles errors correctly",
+                  "automatable": false
+                }
+              ]
+            }
+          ],
+          "summary": "This test suite covers critical functionality of the Apple website, including navigation, buttons, links, visual elements, responsiveness, and error handling."
+        },
+        "playwrightCode": {
+          "success": true,
+          "testFileName": "apple.spec.js",
+          "testCode": "const { test, expect } = require('@playwright/test');\n\ntest.describe('Apple Website Tests', () => {\n  test.beforeEach(async ({ page }) => {\n    await page.goto('https://apple.com');\n  });\n\n  test('should have the correct title', async ({ page }) => {\n    await expect(page).toHaveTitle('Apple');\n  });\n\n  test('header navigation links are visible and clickable', async ({ page }) => {\n    const links = ['Store', 'Mac', 'iPad', 'iPhone', 'Watch', 'TV & Home', 'Entertainment', 'Accessories', 'Support'];\n    for (const link of links) {\n      const navigationLink = page.locator('header').getByText(link);\n      await expect(navigationLink).toBeVisible();\n      await navigationLink.click();\n      await expect(page).toHaveURL(/.*$/);\n      await page.goBack();\n    }\n  });\n\n  test('Shop iPhone button is visible and clickable', async ({ page }) => {\n    const shopIPhoneButton = page.locator('header').getByText('Shop iPhone');\n    await expect(shopIPhoneButton).toBeVisible();\n    await shopIPhoneButton.click();\n    await expect(page).toHaveURL(/.*iphone.*/);\n  });\n\n  test('Learn more buttons are visible and clickable', async ({ page }) => {\n    const learnMoreButtons = page.locator('body').getByText('Learn more');\n    for (const button of learnMoreButtons) {\n      await expect(button).toBeVisible();\n      await button.click();\n      await expect(page).toHaveURL(/.*$/);\n      await page.goBack();\n    }\n  });\n\n  test('Buy buttons are visible and clickable', async ({ page }) => {\n    const buyButtons = page.locator('body').getByText('Buy');\n    for (const button of buyButtons) {\n      await expect(button).toBeVisible();\n      await button.click();\n      await expect(page).toHaveURL(/.*$/);\n      await page.goBack();\n    }\n  });\n});",
+          "totalTestCases": 5,
+          "testList": [
+            {
+              "name": "should have the correct title",
+              "type": "navigation",
+              "description": "Verifies the page title matches the expected title."
+            },
+            {
+              "name": "header navigation links are visible and clickable",
+              "type": "navigation",
+              "description": "Verifies all header navigation links are visible and clickable."
+            },
+            {
+              "name": "Shop iPhone button is visible and clickable",
+              "type": "button",
+              "description": "Verifies the 'Shop iPhone' button is visible and clickable."
+            },
+            {
+              "name": "Learn more buttons are visible and clickable",
+              "type": "button",
+              "description": "Verifies all 'Learn more' buttons are visible and clickable."
+            },
+            {
+              "name": "Buy buttons are visible and clickable",
+              "type": "button",
+              "description": "Verifies all 'Buy' buttons are visible and clickable."
+            }
+          ]
+        },
+        "executionResults": {
+          "runId": "e11eea36",
+          "testFileName": "apple.spec.js",
+          "pageUrl": "https://apple.com",
+          "startTime": "2026-04-09T09:41:24.510Z",
+          "endTime": "2026-04-09T09:41:49.098Z",
+          "totalTests": 5,
+          "passed": 5,
+          "failed": 0,
+          "skipped": 0,
+          "testResults": [
+            {
+              "index": 0,
+              "name": "should have the correct title",
+              "type": "seo",
+              "status": "passed",
+              "duration": 73,
+              "error": null,
+              "details": "Title found: \"Apple\""
+            },
+            {
+              "index": 1,
+              "name": "header navigation links are visible and clickable",
+              "type": "navigation",
+              "status": "passed",
+              "duration": 509,
+              "error": null,
+              "details": "Navigation found with 274 links"
+            },
+            {
+              "index": 2,
+              "name": "Shop iPhone button is visible and clickable",
+              "type": "button",
+              "status": "passed",
+              "duration": 105,
+              "error": null,
+              "details": "Found 17 buttons (17 enabled): India, Continue, Close country or region selector"
+            },
+            {
+              "index": 3,
+              "name": "Learn more buttons are visible and clickable",
+              "type": "button",
+              "status": "passed",
+              "duration": 69,
+              "error": null,
+              "details": "Found 17 buttons (17 enabled): India, Continue, Close country or region selector"
+            },
+            {
+              "index": 4,
+              "name": "Buy buttons are visible and clickable",
+              "type": "button",
+              "status": "passed",
+              "duration": 92,
+              "error": null,
+              "details": "Found 17 buttons (17 enabled): India, Continue, Close country or region selector"
+            }
+          ],
+          "savedTestFile": "D:\\websiteTesting\\node_service\\groq_tests\\e11eea36_apple.spec.js",
+          "status": "complete",
+          "error": null
+        },
+        "status": "complete",
+        "error": null
+      },
+      "error": null
+    }
+  ],
+  "overallScore": 0,
+  "status": "complete",
+  "errorMessage": null,
+  "testDurationMs": 55717,
+  "globalSummary": {
+    "totalErrors": 0,
+    "brokenLinks": [],
+    "missingResources": [],
+    "seoIssues": [],
+    "elementStats": {
+      "totalImages": 49,
+      "totalLinks": 338,
+      "totalButtons": 0,
+      "totalMissingAlt": 40,
+      "totalMissingSrc": 0,
+      "totalDuplicateImages": 8
+    },
+    "suggestedFixes": []
+  }
+}
