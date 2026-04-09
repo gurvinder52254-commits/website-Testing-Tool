@@ -9,6 +9,7 @@
 
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 const fs = require('fs');
+const { promises: fsPromises } = require('fs');
 
 let genAI = null;
 let model = null;

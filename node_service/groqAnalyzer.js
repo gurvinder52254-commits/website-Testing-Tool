@@ -10,6 +10,7 @@
  */
 
 const fs = require('fs');
+const { promises: fsPromises } = require('fs');
 const fetch = require('node-fetch');
 
 /**
@@ -166,7 +167,7 @@ async function analyzePageElements(screenshotPath, pageUrl, pageTitle) {
     }
 
     try {
-        const imageBuffer = fs.readFileSync(screenshotPath);
+        const imageBuffer = await fs.promises.readFile(screenshotPath);
         const base64Image = imageBuffer.toString('base64');
 
         const prompt = `You are an expert QA engineer analyzing a webpage screenshot. The page URL is "${pageUrl}" and title is "${pageTitle}".
@@ -251,7 +252,7 @@ async function suggestTestCases(screenshotPath, pageUrl, pageTitle, elementsAnal
     }
 
     try {
-        const imageBuffer = fs.readFileSync(screenshotPath);
+        const imageBuffer = await fs.promises.readFile(screenshotPath);
         const base64Image = imageBuffer.toString('base64');
 
         const elementsContext = JSON.stringify(elementsAnalysis, null, 2);
@@ -313,7 +314,7 @@ async function generatePlaywrightCode(screenshotPath, pageUrl, pageTitle, elemen
     }
 
     try {
-        const imageBuffer = fs.readFileSync(screenshotPath);
+        const imageBuffer = await fs.promises.readFile(screenshotPath);
         const base64Image = imageBuffer.toString('base64');
 
         const prompt = `You are a Playwright automation expert. Based on this webpage screenshot, generate executable Playwright test code in JavaScript (CommonJS format).
