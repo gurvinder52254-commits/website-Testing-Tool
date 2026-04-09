@@ -10,6 +10,7 @@
  */
 
 const fs = require('fs');
+const { promises: fsPromises } = require('fs');
 const fetch = require('node-fetch');
 
 /**
