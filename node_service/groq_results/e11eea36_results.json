@@ -1,0 +1,61 @@
+{
+  "runId": "e11eea36",
+  "testFileName": "apple.spec.js",
+  "pageUrl": "https://apple.com",
+  "startTime": "2026-04-09T09:41:24.510Z",
+  "endTime": "2026-04-09T09:41:49.098Z",
+  "totalTests": 5,
+  "passed": 5,
+  "failed": 0,
+  "skipped": 0,
+  "testResults": [
+    {
+      "index": 0,
+      "name": "should have the correct title",
+      "type": "seo",
+      "status": "passed",
+      "duration": 73,
+      "error": null,
+      "details": "Title found: \"Apple\""
+    },
+    {
+      "index": 1,
+      "name": "header navigation links are visible and clickable",
+      "type": "navigation",
+      "status": "passed",
+      "duration": 509,
+      "error": null,
+      "details": "Navigation found with 274 links"
+    },
+    {
+      "index": 2,
+      "name": "Shop iPhone button is visible and clickable",
+      "type": "button",
+      "status": "passed",
+      "duration": 105,
+      "error": null,
+      "details": "Found 17 buttons (17 enabled): India, Continue, Close country or region selector"
+    },
+    {
+      "index": 3,
+      "name": "Learn more buttons are visible and clickable",
+      "type": "button",
+      "status": "passed",
+      "duration": 69,
+      "error": null,
+      "details": "Found 17 buttons (17 enabled): India, Continue, Close country or region selector"
+    },
+    {
+      "index": 4,
+      "name": "Buy buttons are visible and clickable",
+      "type": "button",
+      "status": "passed",
+      "duration": 92,
+      "error": null,
+      "details": "Found 17 buttons (17 enabled): India, Continue, Close country or region selector"
+    }
+  ],
+  "savedTestFile": "D:\\websiteTesting\\node_service\\groq_tests\\e11eea36_apple.spec.js",
+  "status": "complete",
+  "error": null
+}
