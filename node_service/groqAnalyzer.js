@@ -34,10 +34,28 @@ function sanitizeJsonString(raw) {
 
     // 3. Fix unescaped backslashes: 
     // A backslash is invalid in JSON unless followed by " \ / b f n r t uXXXX
-    // We look for backslashes NOT followed by one of those and escape them.
-    // This is tricky; a simpler approach is to fix common "bad" escapes like \( \) \. \* 
-    // which the AI often includes when writing selectors or regex.
-    clean = clean.replace(/\\([^"\\\/bfnrtu])/g, '\\\\$1');
+    // We escape backslashes that are NOT part of a valid JSON escape sequence.
+    clean = clean.replace(/\\/g, (match, offset, string) => {
+        let backslashCount = 0;
+        for (let i = offset - 1; i >= 0 && string[i] === '\\'; i--) {
+            backslashCount++;
+        }
+        if (backslashCount % 2 === 0) {
+            const nextChar = string[offset + 1];
+            if (nextChar === undefined) return '\\\\';
+            if (nextChar === ' ') return '\\\\';
+            if (nextChar === '"') {
+                const rest = string.substring(offset + 2).trim();
+                if (rest === '' || rest[0] === ',' || rest[0] === '}' || rest[0] === ']') {
+                    return '\\\\';
+                }
+            }
+            const isUnicode = nextChar === 'u' && /^[0-9a-fA-F]{4}$/.test(string.substring(offset + 2, offset + 6));
+            const isValidEscape = /["\\\/bfnrt]/.test(nextChar) || isUnicode;
+            if (!isValidEscape) return '\\\\';
+        }
+        return '\\';
+    });
 
     // 4. Remove trailing commas in objects/arrays (some parsers hate this)
     clean = clean.replace(/,\s*([\}\]])/g, '$1');
