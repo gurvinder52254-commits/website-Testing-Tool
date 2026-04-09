@@ -9,6 +9,7 @@
 
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 const fs = require('fs');
+const { promises: fsPromises } = require('fs');
 
 let genAI = null;
 let model = null;
@@ -50,7 +51,7 @@ async function analyzeScreenshot(screenshotPath, pageUrl, pageTitle) {
     }
 
     try {
-        const imageBuffer = fs.readFileSync(screenshotPath);
+        const imageBuffer = await fsPromises.readFile(screenshotPath);
         const base64Image = imageBuffer.toString('base64');
 
         const prompt = `You are a senior UI/UX designer and web quality analyst. Analyze this webpage screenshot from "${pageUrl}" (Page Title: "${pageTitle}").
