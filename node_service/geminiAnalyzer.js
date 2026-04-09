@@ -50,7 +50,7 @@ async function analyzeScreenshot(screenshotPath, pageUrl, pageTitle) {
     }
 
     try {
-        const imageBuffer = fs.readFileSync(screenshotPath);
+        const imageBuffer = await fs.promises.readFile(screenshotPath);
         const base64Image = imageBuffer.toString('base64');
 
         const prompt = `You are a senior UI/UX designer and web quality analyst. Analyze this webpage screenshot from "${pageUrl}" (Page Title: "${pageTitle}").
